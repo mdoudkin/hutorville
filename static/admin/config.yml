@@ -18,4 +18,10 @@ collections:
       - { label: 'Опубликовано', name: 'date', widget: 'datetime' }
       - { label: 'Описание', name: 'description', widget: 'string' }
       - { label: 'Цена', name: 'price', widget: 'number', min: 0 }
+      - {
+          label: 'За штуку',
+          name: 'perItem',
+          widget: 'boolean',
+          default: false,
+        }
       - { label: 'Картинка', name: 'image', widget: 'image' }
